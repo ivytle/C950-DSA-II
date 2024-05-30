@@ -1,5 +1,49 @@
 # C950: Data Structures and Algorithms II
 
+## Project Summary
+
+This project involves developing a routing program for the Western Governors University Parcel Service (WGUPS) to ensure timely and efficient delivery of packages. The program uses algorithms and data structures to solve the problem of routing delivery trucks to meet constraints while traveling under 140 miles.
+
+### Key Components
+
+1. **Hash Table Development**: A custom hash table is implemented to store package details. The hash table allows for efficient insertion and retrieval of package data, including:
+   - Delivery address
+   - Delivery deadline
+   - Delivery city
+   - Delivery zip code
+   - Package weight
+   - Delivery status (at the hub, en route, or delivered)
+
+2. **Look-Up Function**: This function retrieves package details based on the package ID, allowing for quick access to all relevant information.
+
+3. **Routing Algorithm**: The nearest neighbor algorithm is used to determine the most efficient delivery routes. This algorithm helps in minimizing the total distance traveled while ensuring that all packages are delivered on time. The routing logic is implemented in Python and considers constraints such as package deadlines and truck capacity.
+
+4. **User Interface**: An intuitive command-line interface is provided for users to:
+   - View the delivery status of any package at any time
+   - Check the total mileage traveled by all trucks
+   - Monitor the progress of each truck and its packages at specific times of the day
+
+5. **Documentation and Comments**: Detailed comments and documentation are included throughout the code to explain the process and flow. This ensures that the code is easy to follow and maintain.
+
+### Screenshots
+
+Screenshots are provided to demonstrate the status of packages at various times during the delivery process:
+- Between 8:35 a.m. and 9:25 a.m.
+- Between 9:35 a.m. and 10:25 a.m.
+- Between 12:03 p.m. and 1:12 p.m.
+
+Additionally, screenshots show the successful completion of the code, including the total mileage traveled by all trucks.
+
+### Algorithm and Data Structure Justification
+
+The nearest neighbor algorithm was chosen for its simplicity and efficiency in solving the traveling salesman problem in a practical manner. The custom hash table allows for fast data retrieval and is well-suited for managing the package information. The project includes an evaluation of the strengths and weaknesses of these choices and discusses their scalability.
+
+### Future Improvements
+
+Suggestions for potential improvements include exploring other algorithms like the Dijkstra or A* algorithm for more complex scenarios and considering alternative data structures like balanced binary search trees or priority queues to optimize performance further.
+
+---
+
 ## Introduction
 
 For Tasks 1 and 2, you will apply the algorithms and data structures studied in this course to solve a real programming problem. You will also implement an algorithm to route delivery trucks that will allow you to meet all delivery constraints while traveling under 140 miles. You will then describe and justify the decisions you made while creating this program.
@@ -27,6 +71,7 @@ The intent is to use the program for this specific location and also for many ot
 - The distances provided in the “WGUPS Distance Table” are equal regardless of the direction traveled.
 - The day ends when all 40 packages have been delivered.
 
+---
 ## Task 1 Requirements
 
 ### A. Algorithm Selection
@@ -69,6 +114,7 @@ Acknowledge sources, using in-text citations and references, for content that is
 
 Demonstrate professional communication in the content and presentation of your submission.
 
+---
 ## Task 2 Requirements
 
 ### A. Hash Table Development
