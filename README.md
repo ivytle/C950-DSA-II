@@ -110,9 +110,6 @@ Write an overview of your program in which you do the following:
 
 Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized.
 
-### E. Professional Communication
-
-Demonstrate professional communication in the content and presentation of your submission.
 
 ---
 ## Task 2 Requirements
@@ -183,7 +180,3 @@ Verify that the data structure used in the solution meets all requirements in th
 ### I. Sources
 
 Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized.
-
-### J. Professional Communication
-
-Demonstrate professional communication in the content and presentation of your submission.
