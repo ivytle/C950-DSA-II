@@ -40,7 +40,7 @@ The nearest neighbor algorithm was chosen for its simplicity and efficiency in s
 
 ### Future Improvements
 
-Suggestions for potential improvements include exploring other algorithms like the Dijkstra or A* algorithm for more complex scenarios and considering alternative data structures like balanced binary search trees or priority queues to optimize performance further.
+Suggestions for potential improvements include exploring other algorithms like the Dijkstra for more complex scenarios and considering alternative data structures like balanced binary search trees or priority queues to optimize performance further.
 
 ---
 
